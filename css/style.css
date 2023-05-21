@@ -1,0 +1,474 @@
+/*  #######################    ARCHIVO DE ESTILOS DEL SITIO AQUALIFE - TODOS LOS DERECHOS RESERVADOS  #############################
+
+/*? REFERENCIAS DE COLORES:
+
+/*Todo 1 - CÓDIGO GENERAL DE PAGINA
+/*!    2 - CÓDIGO DE SECCIÓN DENTRO DE PÁGINA
+/**    3 - CÓDIGOS QUE SE APLICAN A TODAS LAS PÁGINAS
+/*?    4 - CÓDIGO DE DISTRIBUCIÓN DE ELEMENTOS EN PÁGINA Y RESPONSIVE
+
+################################################################################################################################*/
+
+
+
+/**----- FONTS FAMILY -----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+/**----- GENERAL RESET -----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/**----- HEADER -----*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+
+header a img {
+    height: 120px;
+    width: 220px;
+    margin: 20px;
+}
+
+.iconCart {
+    width: 55px;
+    height: 55px;
+    stroke: #000;
+    margin-top: 55px;
+    margin-left: -15px;
+}
+
+.iconCart:hover {
+    cursor: pointer;
+}
+
+.containerIcon {
+    position: relative;
+}
+
+.countProducts {
+    position: absolute;
+    top: 55%;
+    right: 5;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contadorProductos {
+    font-size: 12px;
+}
+
+.containerCartProducts {
+    position: absolute;
+    top: 125px;
+    right: 0;
+
+    background-color: #fff;
+    width: 550px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+
+}
+
+.cartProduct {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.infoCartProduct {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.tituloProductoCarrito {
+    font-size: 20px;
+}
+
+.precioProductoCarrito {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidadProductoCarrito {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.iconClose {
+    width: 25px;
+    height: 25px;
+}
+
+.iconClose:hover {
+    stroke: red;
+    cursor: pointer;
+}
+
+.cartTotal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cartTotal h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.totalPagar {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hiddenCart {
+    display: none;
+}
+
+.cardEmpty {
+    padding: 20px;
+    text-align: center;
+    color: #f2811d;
+}
+
+.search input {
+    background-color: #fff;
+    width: 300px;
+    border-color: #05aff2;
+    border-style: double;
+}
+
+.search button img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.search button {
+    background-color: #fff;
+    border-style: none;
+    margin: 70px 0px 20px 20px;
+}
+
+.CartProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartEmpty {
+    padding: 20px;
+    font-size: "Poppins";
+    font-weight: bold;
+    font-size: 22px;
+    color: crimson;
+}
+
+.vaciar{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btnVaciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #05aff2;
+    border: 0;
+    transition-duration: 0.5s;
+}
+
+.btnVaciar:active {
+    background-color: #f4e0d0;
+    box-shadow: 10px 10px 30px -5px rgba(28, 17, 6, 0.75);
+    color: black;
+}
+
+.btnNewProduct {display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #05aff2;
+    border: 0;
+    transition-duration: 0.5s;
+    margin: 70px 0px 20px 20px;
+}
+
+.btnNewProduct:active {
+    background-color: #f4e0d0;
+    box-shadow: 10px 10px 30px -5px rgba(28, 17, 6, 0.75);
+    color: black;
+}
+
+
+
+/**----- FOOTER -----*/
+
+footer {
+    background-color: whitesmoke;
+    padding-top: 60px;
+}
+
+.footerRedes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footerRedes h3 {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footerRedes ul {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footerRedes ul li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.footerRedes ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.footerLogo a img {
+    width: 200px;
+    height: 100px;
+}
+
+.footerContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.footerContacto h3 {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footerContacto ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footerContacto ul li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.footerContacto ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.copyright {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 100;
+}
+
+.copyright h4 {
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.copyright h6 {
+    font-size: 10px;
+}
+
+.copyright img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+/*Todo----- TIENDA.HTML  - BODY -----*/
+
+
+/*!-----  TIENDA SECTION -----*/
+
+.shop {
+    width: 100%;
+
+    border-top: 1px solid rgb(224, 221, 221);
+    background-color: rgb(204, 238, 248);
+    padding: 88px;
+}
+
+.shop h1 {
+    font-family: "Smooch";
+    text-align: center;
+    color: rgb(64, 63, 63);
+    font-weight: 300;
+    font-size: 88px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+/*! Cards */
+
+.productosShop {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardShop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 30px;
+}
+
+.cardShop img {
+    width: 450px;
+    height: 300px;
+}
+
+.cardShop h3 {
+    font-family: "Poppins";
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.cardShop h6 span {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.cardShop h4 {
+    font-size: 20px;
+    margin: 25px 0px 25px 0px;
+}
+
+.cardShop h4 span {
+    font-size: 40px;
+    margin: 25px 0px 25px 0px;
+    color: rgb(40, 40, 154);
+}
+
+.cardShop h5 {
+    font-size: 14px;
+}
+
+
+
+.cardShop button {
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #05aff2;
+    border: 0;
+    transition-duration: 0.5s;
+}
+
+.cardShop button:hover {
+    background-color: #f2811d;
+    box-shadow: 10px 10px 30px -5px rgba(202, 100, 3, 0.75);
+    color: black;
+}
+
+.cardShop button:active {
+    background-color: #f4e0d0;
+    box-shadow: 10px 10px 30px -5px rgba(28, 17, 6, 0.75);
+    color: black;
+}
