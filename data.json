@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "img": "/img/tienda/puntius.jpg",
+        "img": "./img/tienda/puntius.jpg",
         "name": "Puntius Tetrazona",
         "origen": "Asia en Tailandia, Sumatra y Borneo",
         "price": 55,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "img": "/img/tienda/titeya.jpg",
+        "img": "./img/tienda/titeya.jpg",
         "name": "Puntius Titteya",
         "origen": "Asia en Sry Lanka",
         "price": 45,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "img": "/img/tienda/labeo.jpg",
+        "img": "./img/tienda/labeo.jpg",
         "name": "Epalzeorhynchos Bicolor",
         "origen": "Asia en Tailandia",
         "price": 145,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "img": "/img/tienda/zooro-volador.jpg",
+        "img": "./img/tienda/zooro-volador.jpg",
         "name": "Epalzeorhynchos Kalopterus",
         "origen": "Asia en Tailandia, Malasia, Indonesia, Sumatra y Borneo",
         "price": 145,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "img": "/img/tienda/cebra.jpg",
+        "img": "./img/tienda/cebra.jpg",
         "name": "Danio Rerio",
         "origen": "Asia en La India Oriental y Bangladesh",
         "price": 25,
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "img": "/img/tienda/botia.jpg",
+        "img": "./img/tienda/botia.jpg",
         "name": "Chromobotia Macracanthus",
         "origen": "Asia en Indonesia, Sumatra y Borneo",
         "price": 95,
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "img": "/img/tienda/chupa_algas.jpg",
+        "img": "./img/tienda/chupa_algas.jpg",
         "name": "Gyrinocheilus Aymonieri",
         "origen": "Asia en China, Vietnam, Camboya, Laos y Tailandia",
         "price": 85,
