@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "img": "/img/tienda/tijerita.jpg",
+        "img": "./img/tienda/tijerita.jpg",
         "name": "Rasbora Trilineata",
         "origen": "Asia en Malasia, Vietnam, Sumatra y Borneo",
         "price": 45,

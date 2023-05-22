@@ -15,7 +15,7 @@ const productos = [];
 
 tienda();
 
-function tienda() {fetch("../data/data.json")
+function tienda() {fetch("./data.json")
     .then(response => response.json())
     .then(data => {
         data.forEach(producto => {
@@ -166,11 +166,9 @@ function deletProduct(e) {
 
         allProducts = allProducts.filter(
             product => product.name !== name
-        );
+        )
 
         showHTML();
-    }else{
-        vaciarCarrito();
     };
 }
 
